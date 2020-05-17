@@ -25,5 +25,8 @@ module.exports = {
   ],
   devServer: {
     hot: true
+  },
+  resolve: {
+    extensions: ['.ts', '.js']
   }
 }
