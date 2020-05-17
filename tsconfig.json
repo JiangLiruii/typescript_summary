@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES6"
+    "target": "ES6",
+    "strict": false
   },
-  "include": ["./src/index.ts"],
+  "include": ["./src"],
   "exclude": ["./node_modules"]
 }
